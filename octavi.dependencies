@@ -4,7 +4,15 @@
     "target_path" : "kernel/oneplus/sdm845"
   },
   {
-    "repository"  : "vendor_oneplus",
+    "repository"  : "vendor_oneplus_fajita",
     "target_path" : "vendor/oneplus"
+  },
+  {
+    "repository"  : "device_oneplus_common",
+    "target_path" : "device/oneplus/common"
+  },
+  {
+    "repository"  : "vendor_addons_oneplus_apps",
+    "target_path" : "vendor/addons/oneplus/apps"
   }
 ]
