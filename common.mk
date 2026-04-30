@@ -384,3 +384,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
+
+# RDP: Trigger Dynamic Partition Build Rules
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
+# RDP: Inject Userspace Fastboot and Boot Control
+PRODUCT_PACKAGES += \
+    fastbootd
+

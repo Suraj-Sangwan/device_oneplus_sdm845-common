@@ -9,6 +9,7 @@ prebuilt_etc {
     src: "fstab.qcom",
     vendor: true,
     ramdisk_available: true,
+    recovery_available: true,
 }
 
 prebuilt_etc {
