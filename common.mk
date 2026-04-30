@@ -399,3 +399,11 @@ TARGET_DISABLE_EPPE := true
 
 # Hack
 PRODUCT_PACKAGES += libgui_shim_schnitzel
+
+# RDP: Trigger Dynamic Partition Build Rules
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
+# RDP: Inject Userspace Fastboot and Boot Control
+PRODUCT_PACKAGES += \
+    fastbootd
